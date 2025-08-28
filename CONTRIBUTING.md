@@ -1,52 +1,45 @@
-# Contributing to phpMyAdmin
+# Contributing to Waste Management System
 
-As an open-source project, phpMyAdmin welcomes contributions of many forms.
+Thank you for considering contributing to the Waste Management System! Your involvement helps make this project better for everyone. Before contributing, please take a moment to review the following guidelines.
 
-## Bug reporting
+## How Can I Contribute?
 
-We appreciate your effort to improve phpMyAdmin by submitting a bug report. Before doing so, please check the following things:
+### Reporting Bugs or Issues
 
-1. Check whether the bug you face **hasn't been already reported**. Duplicate reports take us time, that we could be used to fix other bugs or make improvements.
+If you encounter any bugs, issues, or unexpected behavior while using the Waste Management System, please report them by opening a new issue on the GitHub repository. When reporting issues, please provide as much detail as possible, including steps to reproduce the problem and any error messages encountered.
 
-2. Specify the phpMyAdmin, server, PHP, MySQL and browser information that may be helpful to fix the problem, especially exact **version numbers**.
+### Suggesting Enhancements or New Features
 
-3. If you got some error, please **describe what happened** and add an error message. Reports like "I get an error when I clicked on some link" are useless.
+We welcome suggestions for enhancements or new features to improve the Waste Management System. You can submit your ideas by opening a new issue on the GitHub repository. Be sure to provide a clear description of the proposed enhancement or feature and any relevant details.
 
-4. Provide easy steps to reproduce and if possible include your table structure (``SHOW CREATE TABLE `tbl_name`;``); if your problem implies specific data, attach a small export file for sample rows.
+### Code Contributions
 
-5. **Security problems** should not be reported here. See [our security page](https://www.phpmyadmin.net/security/).
+We appreciate contributions to the codebase that help fix bugs, implement new features, or improve existing functionality. To contribute code, follow these steps:
 
-Thanks for your help!
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your changes.
+3. Make your changes to the codebase.
+4. Test your changes thoroughly to ensure they work as expected.
+5. Commit your changes with descriptive commit messages.
+6. Push your changes to your forked repository.
+7. Submit a pull request to the main repository, detailing the changes made and any relevant information.
 
-Please report [bugs on GitHub][1].
+### Code Style and Standards
 
-[1]: https://github.com/phpmyadmin/phpmyadmin/issues/new
+When contributing code to the Waste Management System, please adhere to the following guidelines:
 
-## Patches submission
+- Follow the existing code style and formatting conventions.
+- Write clear and concise code with meaningful variable names and comments where necessary.
+- Test your changes to ensure they do not introduce any regressions or unintended side effects.
+- Maintain backward compatibility with existing functionality whenever possible.
 
-Patches are welcome as [pull requests on GitHub][2].  Please include a
-Signed-off-by tag in the commit message (you can do this by passing [`--signoff`][4] parameter to Git).
+## Code of Conduct
 
-When creating the commit on GitHub or using some other tool which does not have
-direct support for this, it is the same as adding `Signed-off-by: Your name <email@example.com>`
-as the last line of the commit message.
+Please note that by contributing to the Waste Management System, you agree to abide by the project's [Code of Conduct](CODE_OF_CONDUCT.md). We expect all contributors to treat others with respect, foster a welcoming and inclusive community, and refrain from any behavior that may be harmful or disruptive.
 
-Example: `Signed-off-by: Jane Smith <jane.smith@example.org>`
+## Get Help
 
-Note that by submitting patches with the Signed-off-by tag, you are giving
-permission to license the patch as GPLv2-or-later. See [the DCO file][3] for details.
+If you have any questions, concerns, or need assistance with contributing to the Waste Management System, feel free to reach out to the project maintainers or community members for help. You can also refer to the [README.md](README.md) file for information on setting up the project locally and other details.
 
+Thank you for your contributions and support!
 
-[2]: https://github.com/phpmyadmin/phpmyadmin/pulls
-[3]: https://github.com/phpmyadmin/phpmyadmin/blob/master/DCO
-[4]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff
-
-## Triage issues [![Open Source Helpers](https://www.codetriage.com/phpmyadmin/phpmyadmin/badges/users.svg)](https://www.codetriage.com/phpmyadmin/phpmyadmin)
-
-You can triage issues, which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to phpMyAdmin on CodeTriage](https://www.codetriage.com/phpmyadmin/phpmyadmin).
-
-## More information
-
-You can find more information on our website:
-
-https://www.phpmyadmin.net/contribute/
